@@ -16,20 +16,6 @@ app.configure(function(){
   app.use(express.static(__dirname + '/public'));
 });
 
-/*
-app.configure('development', function(){
-  app.use(express.errorHandler({ dumpExceptions: true, showStack: true }));
-});
-
-app.configure('production', function(){
-  app.use(express.errorHandler());
-});
-*/
-
-/*app.use(function(err, req, res, next){
-  console.log("in error handler" + err.stack);
-});*/
-
 // Routes
 
 app.get('/', routes.index);
