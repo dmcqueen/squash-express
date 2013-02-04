@@ -1,0 +1,7 @@
+{
+	"squash" : {
+		"apihost" : "http://squash.neudesic-dev.com",
+		"apikey" : "00200418-be5e-491c-8bf4-0e30fa5409a9",
+		"env" : "production"
+	}
+} 
