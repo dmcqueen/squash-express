@@ -38,7 +38,7 @@ app.configure(function(){
 
   app.use(function(err, req, res, next){
     console.log("in global error handler");
-    console.log(err.stack);
+    console.log(err);
     squash.report(err);
     next();
   });
