@@ -2,7 +2,7 @@
  * Module dependencies.
  */
 var git = require('git-rev')
-var Squash = require('squash-node').Squash;
+var Squash = require('squash-node');
 var squash = new Squash(); 
 
 var nconf = require('nconf');
