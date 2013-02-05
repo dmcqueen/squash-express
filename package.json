@@ -5,7 +5,7 @@
   , "dependencies": {
       "express": "2.5.8"
     , "nconf" : ">=0.6.0"
-    , "squash-node": "git+https://github.com/dmcqueen/squash-node.git"
+    , "squash-node": ">=0.0.1"
     , "git-rev" : ">=0.2.1"
   }
 }
